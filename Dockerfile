@@ -19,8 +19,9 @@ EXPOSE 8000
 
 #Comando para ejecutar la aplicación de python
 #CMD ["sh", "-c", "sleep 10 && wait-for-it db:5432 -- python crud-django1/manage.py runserver 0.0.0.0:8000"]
-CMD ["sh", "-c", "
-    wait-for-it db:5432 -- echo 'Database is ready'; 
-    python crud-django1/manage.py migrate && 
-    python crud-django1/manage.py runserver 0.0.0.0:8000
-"]
+# CMD ["sh", "-c", "
+#     wait-for-it db:5432 -- echo 'Database is ready'; 
+#     python crud-django1/manage.py migrate && 
+#     python crud-django1/manage.py runserver 0.0.0.0:8000
+# "]
+CMD ["python", "crud-django1/manage.py", "runserver", "0.0.0.0:8000"]
