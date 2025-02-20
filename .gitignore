@@ -1,0 +1,11 @@
+__pycache__/
+db.sqlite3
+.env
+venv/
+*.pyc
+*.pyo
+*.log
+node_modules/
+staticfiles/
+media/
+docker/postgres_data/
