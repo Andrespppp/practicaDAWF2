@@ -6,7 +6,7 @@ docker-compose down -v
 ```
 
 ---
-## 📌 Notas importantes
+## Notas importantes
 
 - La primera vez que ejecutes el proyecto, el proceso puede tardar unos minutos.
 - Si realizas cambios en el código, puedes reiniciar el entorno con:
@@ -14,5 +14,5 @@ docker-compose down -v
   docker-compose down && docker-compose up --build
   ```
 
-¡Listo! Ahora puedes acceder a la aplicación en `http://localhost:8000` (o el puerto configurado en tu proyecto). 🚀
+¡Listo! Ahora puedes acceder a la aplicación en `http://localhost:8000` (o el puerto configurado en tu proyecto). 
 
