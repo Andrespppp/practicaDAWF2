@@ -24,22 +24,22 @@ docker-compose down -v
   ```bash
   \dt;
   ```
-- Ver la estructura de las relacions donde se encuentran las tablas:
+- Ver la estructura de las relaciones donde se encuentran las tablas:
   ```bash
     \d tasks_task;
   ```
   -  Listar todos los registros de la tabla tasks_task:
   ```bash
-    SELECT * FROM tasks;
+    SELECT * FROM tasks_task;
   ```
   - Ver los datos de forma ascendente
   ```bash
-    SELECT * FROM tasks ORDER BY id ASC;
+    SELECT * FROM tasks_task ORDER BY id ASC;
   ```
 
   - Ver los datos de forma descendente
   ```bash
-    SELECT * FROM tasks ORDER BY id DESC;
+    SELECT * FROM tasks_task ORDER BY id DESC;
   ```
 
   -  Salir de PostgreSQL:
