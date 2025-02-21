@@ -8,7 +8,7 @@ docker-compose down -v
 ---
 ## Notas importantes
 
-- La primera vez que ejecutes el proyecto, el proceso puede tardar unos minutos.
+ La primera vez que ejecutes el proyecto, el proceso puede tardar unos minutos.
 - Si realizas cambios en el código, puedes reiniciar el entorno con:
   ```bash
   docker-compose down && docker-compose up --build
@@ -20,8 +20,7 @@ docker-compose down -v
   ```
 - Esto abrirá la consola de PostgreSQL dentro del contenedor.
 
-
-Ver todas las tablas de la base de datos:
+  Ver todas las tablas de la base de datos:
   ```bash
   \dt;
   ```
