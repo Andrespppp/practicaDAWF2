@@ -13,6 +13,9 @@ docker-compose down -v
   ```bash
   docker-compose down && docker-compose up --build
   ```
+  
+¡Listo! Ahora puedes acceder a la aplicación en `http://localhost:8000` (o el puerto configurado en tu proyecto).   
+
 
 - Para acceder a la base de datos PostgreSQL en tu contenedor practicadawf2_db_1, usa este comando:
   ```bash
@@ -47,5 +50,4 @@ docker-compose down -v
     \q
   ```
 
-¡Listo! Ahora puedes acceder a la aplicación en `http://localhost:8000` (o el puerto configurado en tu proyecto).   
 
